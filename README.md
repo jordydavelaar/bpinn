@@ -4,7 +4,7 @@ This repository contains a prototype implementation of a **Bayesian Physics-Info
 
 ## Overview
 
-- **Forward Model**: The SRMHD system is governed by conservation laws that relate primitive variables (density, pressure, velocity, magnetic field) to conserved quantities.
+- **Forward Model**: The MHD system is governed by conservation laws that relate primitive variables (density, pressure, velocity, magnetic field) to conserved quantities.
 - **Goal**: Recover primitive variables from simulated conserved quantities using a Bayesian neural network trained with physics-based constraints.
 - **Uncertainty Quantification**: The model uses variational inference and Bayesian linear layers to produce distributions over predicted values.
 
@@ -41,8 +41,8 @@ pip install -r requirements.txt
 
 This is a **research prototype** under active development. Future plans include:
 
-- Generalization to multi-dimensional SRMHD  
-- Extension to radiative MHD and non-ideal effects  
+- Generalization to general relativity
+- Extension to radiative MHD   
 - Integration into hybrid simulation pipelines  
 
 ## Citation
