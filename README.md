@@ -20,8 +20,8 @@ This repository contains a prototype implementation of a **Bayesian Physics-Info
 Clone the repository and run the notebook:
 
 ```
-git clone https://github.com/your-username/BPINN-SRMHD.git
-cd BPINN-SRMHD
+git clone https://github.com/your-username/bpinntest-prototype-987qz.git
+cd bpinntest-prototype-987qz
 jupyter notebook SRMHD.ipynb
 ```
 
